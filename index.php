@@ -6,7 +6,7 @@ require_once('function.php');
 
 // データの取得
 $task = new Task();
-
+$tasks = $task->getAll();
 //var_dump($tasks);
 ?>
 <!DOCTYPE html>
